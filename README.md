@@ -24,13 +24,12 @@ Para mais informações sobre essa etapa, [clique aqui](https://docs.github.com/
 ou
 > yarn
 
-Isso fará com que seja instalado todos as bibliotecas necessárias para executar o projeto.
+Isso fará com que seja instalado todas as bibliotecas necessárias para executar o projeto.
 
 4) Execute o projeto pelo terminal com o comando:
 > yarn serve
 
 <br>
 
-**Me acompanhe nas redes sociais:**
 
 [![Linkedin Badge](https://img.shields.io/badge/-Débora%20Taveira-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/débora-taveira/)](https://www.linkedin.com/in/débora-taveira/) [![Instagram Badge](https://img.shields.io/badge/-Débora%20Taveira-df3264?style=flat-square&logo=Instagram&logoColor=white&link=https://www.instagram.com/deborataveiracode/)](https://www.instagram.com/deborataveiracode/) [![Gmail Badge](https://img.shields.io/badge/-deborataveirapvh@gmail.com-red?style=flat-square&logo=Gmail&logoColor=white&link=mailto:deborataveirapvh@gmail.com)](mailto:deborataveirapvh@gmail.com) 
