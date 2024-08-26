@@ -1,0 +1,30 @@
+name: Continuos Integration
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  continuos-integration:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16.
+
+      - name: Install dependencies
+        run: npm Install
+
+      - name: Build the project
+        run: npm run build
+      
+      - name: deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
