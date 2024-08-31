@@ -1,0 +1,15 @@
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #212121;
+  font-weight: 500;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.313rem;
+  border: 0.063rem solid #212121;
+}

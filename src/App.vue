@@ -1,17 +1,17 @@
 <template>
   <div id="app">
     <Header/>
-    <FormAddress/>
+    <AddressForm/>
   </div>
 </template>
 
 <script>
-import FormAddress from './components/FormAddress.vue'
+import AddressForm from './components/AddressForm/index.vue'
 import Header from './components/Header.vue'
 export default {
   name: 'App',
   components: {
-    FormAddress,
+    AddressForm,
     Header
   }
 }
